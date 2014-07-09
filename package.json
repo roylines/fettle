@@ -4,7 +4,7 @@
   "description": "simple system health dashboard",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+   "start": "node index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/roylines/fettle/issues"
   },
-  "homepage": "https://github.com/roylines/fettle"
+  "homepage": "https://github.com/roylines/fettle",
+  "dependencies": {
+    "router": "*"
+  }
 }
